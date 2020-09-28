@@ -12,6 +12,10 @@ https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook
 
     docker run -d --name magpylib -p 8888:8888 geekydeaks/magpylib:latest
 
+Get the URL + Token for notebook from the logs
+
     docker logs magpylib
+
+Moseying around the container
 
     docker exec -it magpylib /bin/bash
