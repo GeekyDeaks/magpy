@@ -10,7 +10,9 @@ https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook
 
 # Running
 
-    docker run -d --name magpylib -p 8888:8888 geekydeaks/magpylib:latest
+    docker run -d --name magpylib -p 8888:8888 \
+    --mount type=bind,source=$(pwd),target=/home/jovyan/nb \
+    geekydeaks/magpylib:latest 
 
 Get the URL + Token for notebook from the logs
 
