@@ -1,8 +1,9 @@
-# Jupyter Notebook MagPy Python Stack
+# Jupyter Notebook Magpylib Python Stack
 
-Builds a docker image with MagPy based on the Jupyter Notebook Scientific Python Stack `jupyter/scipy-notebook`
+Builds a docker image with Magpylib based on the Jupyter Notebook Scientific Python Stack `jupyter/scipy-notebook`
 
-https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook
+- https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook
+- https://magpylib.readthedocs.io/en/latest/
 
 # Build
 
